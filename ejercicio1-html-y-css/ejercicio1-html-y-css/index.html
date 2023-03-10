@@ -9,5 +9,37 @@
 </head>
 <body>
     
+    <form id="container-form" action="/login" method="POST">
+        <h1>Login</h1>
+
+        <div class="login-inputs">
+            <label for="email" class="input-block">Email</label>
+            <input type="email" id="email" name="email" class="input-block">
+        </div>
+
+        <div class="login-inputs">
+            <label for="password" class="input-block">Pasword</label>
+            <input type="password" id='password' name="password" class="input-block">
+        </div>
+        
+        <div class="login-inputs">
+            <label for="gender" class="input-block">Género</label>
+            <select name="gender" id="gender" class="input-block">
+                <option value="" disabled selected>Selecciona un genero</option>
+                <option value="man">Hombre</option>
+                <option value="woman">Mujer</option>
+            </select>
+        </div>
+        
+        <div class="login-verification">
+            <input type="checkbox" name="accept-terms" id="accept-terms">
+            <label for="accept-terms">Acepto los términos</label>
+        </div>
+
+        <input type="submit" value="Ingresar" id="login-button">            
+     
+
+    </form>
+
 </body>
 </html>

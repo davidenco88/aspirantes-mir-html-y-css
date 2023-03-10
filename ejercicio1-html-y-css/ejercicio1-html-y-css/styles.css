@@ -1,0 +1,79 @@
+h1 {
+    margin-top: 10px;
+    padding: 0;
+    color: white;
+    font-family: sans-serif;
+}
+
+label {
+    color: white;
+    font-family: sans-serif;
+}
+
+#container-form {
+    width: 70%;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #bd09b7;
+    border-radius: 20px;
+    background: linear-gradient(#bd09b7, #6b4cf5);
+    box-shadow: 5px 5px 30px 1px;
+}
+
+.login-inputs {
+    display: block;
+    margin-top: 15px;
+}
+
+.input-block {
+    display: block;
+}
+
+.login-verification {
+    margin-top: 15px;
+}
+
+input, select {
+    padding: 7px;
+    margin: 0;
+    border: 0;
+}
+
+.login-inputs input, .login-inputs select {
+    width: 95%;
+}
+
+.button{
+    
+    display: block;
+}
+
+#login-button {
+    width: 80px;
+    left: 220px;
+    padding: 5px 15px;
+    margin: 15px auto;
+    border-radius: 10px;
+    
+}
+
+/*Mobil first Set for Desktop*/
+
+@media (min-width: 500px) {
+    #container-form {
+        width: 300px;
+        margin: 100px auto;
+    }
+
+    #login-button {
+        position: relative;
+        left: 220px; 
+        margin-top: 15px;
+    }
+    
+}
+
+
+
+
+
